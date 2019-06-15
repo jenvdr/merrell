@@ -1,0 +1,188 @@
+body {
+  max-width: 600px;
+  margin: 0;
+  overflow: hidden; }
+
+@font-face {
+  font-family: 'Knockout Junior';
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Bantam';
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Welter';
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Junior';
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Bantam';
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Welter';
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Junior';
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Bantam';
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Welter';
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Junior';
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Bantam';
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Welter';
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+header {
+  height: 10vh;
+  padding: 0 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  header > img {
+    width: auto;
+    height: 2vh; }
+  header > h2 {
+    font-family: 'Knockout Junior';
+    text-transform: uppercase;
+    color: #ff5000;
+    font-size: 12px; }
+
+@font-face {
+  font-family: 'Knockout Junior';
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Bantam';
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Welter';
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+.hero-section {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content; }
+  .hero-section img {
+    display: block; }
+
+.introduction > img {
+  display: block;
+  position: absolute; }
+
+.bodycopy {
+  padding-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .bodycopy > h2.subheading {
+    color: #483a37;
+    margin: 0;
+    padding: 0 0 1vh 0;
+    position: relative;
+    font-family: "Knockout Welter"; }
+    .bodycopy > h2.subheading:after {
+      position: relative;
+      content: "";
+      width: 30%;
+      left: 35%;
+      display: block;
+      margin-top: 10px;
+      border-bottom: 5px solid #f9d300; }
+  .bodycopy > p {
+    position: relative;
+    text-align: center;
+    font-family: "Knockout Junior";
+    color: #483a37; }
+  .bodycopy a.shopwomens {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 11vh 0 0 0;
+    padding: 0 0 1vh 0;
+    position: relative;
+    font-family: "Knockout Welter"; }

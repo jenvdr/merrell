@@ -1,0 +1,20 @@
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_typography.scss";
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_variables.scss";
+header {
+    height: 10vh;
+    padding: 0 3vw;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    > img {
+        width: auto;
+        height: 2vh;
+    }
+    > h2 {
+        font-family:'Knockout Junior';
+        text-transform: uppercase;
+        color: $color-brand-orange;
+        font-size: 12px;
+    }
+}

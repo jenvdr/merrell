@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Knockout';
+    src: url('Knockout-HTF31-JuniorMiddlewt.eot');
+    src: url('Knockout-HTF31-JuniorMiddlewt.eot?#iefix') format('embedded-opentype'),
+        url('Knockout-HTF31-JuniorMiddlewt.woff2') format('woff2'),
+        url('Knockout-HTF31-JuniorMiddlewt.woff') format('woff'),
+        url('Knockout-HTF31-JuniorMiddlewt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Knockout';
+    src: url('Knockout-HTF47-Bantamweight.eot');
+    src: url('Knockout-HTF47-Bantamweight.eot?#iefix') format('embedded-opentype'),
+        url('Knockout-HTF47-Bantamweight.woff2') format('woff2'),
+        url('Knockout-HTF47-Bantamweight.woff') format('woff'),
+        url('Knockout-HTF47-Bantamweight.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Knockout';
+    src: url('Knockout-HTF50-Welterweight.eot');
+    src: url('Knockout-HTF50-Welterweight.eot?#iefix') format('embedded-opentype'),
+        url('Knockout-HTF50-Welterweight.woff2') format('woff2'),
+        url('Knockout-HTF50-Welterweight.woff') format('woff'),
+        url('Knockout-HTF50-Welterweight.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

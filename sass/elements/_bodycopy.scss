@@ -1,0 +1,53 @@
+
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_variables.scss";
+
+.hero-section {
+    height:max-content;
+    img {
+        display: block;
+    }
+}
+.introduction {
+            > img {
+            display: block;
+            position: absolute;
+        }
+}
+.bodycopy {
+    padding-top: 5vh;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        > h2.subheading {
+            color:$color-font-brown;
+            margin:0;
+            padding: 0 0 1vh 0;
+            position:relative;
+            font-family: $font-headings;
+            &:after{
+                position: relative;
+                content: "";
+                width: 30%;
+                left: 35%;
+                display: block;
+                margin-top: 10px;
+                border-bottom: 5px solid $color-yellow;
+}
+        }
+        > p {
+            position:relative;
+            text-align:center;
+            font-family: $font-text;
+            color:$color-font-brown;
+        }
+        a.shopwomens {
+            color:#fff;
+            text-transform:uppercase;
+            font-size: 30px;
+            margin:11vh 0 0 0;
+            padding: 0 0 1vh 0;
+            position:relative;
+            font-family: $font-headings;
+        }
+    }
