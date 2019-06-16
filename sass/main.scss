@@ -1,10 +1,20 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
 body {
   max-width: 600px;
   margin:0;
-  overflow:hidden;
   }
 
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_typography.scss";
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_variables.scss";
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_header.scss";
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_bodycopy.scss";
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_carousel.scss";
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_categories.scss";
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_footer.scss";

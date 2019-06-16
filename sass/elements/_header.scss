@@ -1,4 +1,4 @@
-@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_typography.scss";
+
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_variables.scss";
 header {
     height: 10vh;
@@ -7,7 +7,7 @@ header {
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
-    > img {
+    > a > img {
         width: auto;
         height: 2vh;
     }

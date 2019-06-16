@@ -1,0 +1,34 @@
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_variables.scss";
+
+.category {
+    height: 30vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    position: relative;
+    a {
+        top: 40%;
+        margin-top: -50%;
+        @include shop-links
+    }
+    &:before {
+        position: absolute;
+        content:" ";
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        display: block;
+        z-index:0;
+        background-color: $color-yellow;
+        opacity: .7;
+    }
+}
+
+.mens-section {
+    background-image: url('../../images/francesco-gallarotti-2498-unsplash.jpg');
+}
+
+.kids-section {
+    background-image: url('../../images/s-b-vonlanthen-305116-unsplash.jpg');
+}

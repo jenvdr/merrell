@@ -1,0 +1,56 @@
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_variables.scss";
+
+.grid-background {
+    background-image:url('../../images/grid.jpg');
+    height: 30vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.social-icons {
+    list-style:none;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 70%;
+    margin:5vh auto;
+    padding: 12vh 0;
+    li {
+        font-size: 3rem;
+    }
+}
+
+.meta {
+    margin: 4vh auto;
+    width: 50vw;
+    h3 {
+        text-align:center;
+        padding-top: 15vh;
+        text-transform:uppercase;
+        font-family: $font-headings;
+        color: $color-font-brown;
+    }
+    .meta-links-list {
+        list-style:none;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-between;
+        li > a {
+            text-transform:uppercase;
+            text-decoration:none;
+            font-family: $font-headings;
+            color: $color-font-brown;
+        }
+    }
+}
+
+body > footer > div {
+    width:600px;
+    overflow: hidden;
+    img {
+        width: 1000px;
+        height: auto;
+    }
+}
+
