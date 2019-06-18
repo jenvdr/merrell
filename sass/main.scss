@@ -8,7 +8,7 @@
 
 body {
   max-width: 600px;
-  margin:0;
+  margin:0 auto;
   }
 
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_typography.scss";
@@ -16,5 +16,6 @@ body {
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_header.scss";
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_bodycopy.scss";
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_carousel.scss";
+@import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_carousel-branding.scss";
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_categories.scss";
 @import "/Users/Jen/Desktop/wolverine/merrell/sass/elements/_footer.scss";

@@ -6,7 +6,7 @@
 
 body {
   max-width: 600px;
-  margin: 0; }
+  margin: 0 auto; }
 
 @font-face {
   font-family: 'Knockout Junior';
@@ -118,18 +118,21 @@ header {
   font-style: normal; }
 
 .hero-section {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content; }
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
   .hero-section img {
     display: block; }
 
-.introduction > img {
-  display: block;
-  position: absolute; }
+.introduction {
+  height: 400px; }
+  .introduction > img {
+    display: block;
+    position: absolute; }
 
 .bodycopy {
-  padding-top: 5vh;
+  height: 100%;
+  padding: 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,39 +140,167 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
-  .bodycopy > h2.subheading {
-    color: #483a37;
-    margin: 0;
-    padding: 0 0 1vh 0;
-    position: relative;
-    font-family: "Knockout Welter"; }
-    .bodycopy > h2.subheading:after {
-      position: relative;
-      content: "";
-      width: 30%;
-      left: 35%;
-      display: block;
-      margin-top: 10px;
-      border-bottom: 5px solid #ffe769; }
-  .bodycopy > p {
-    position: relative;
-    text-align: center;
-    font-family: "Knockout Junior";
-    color: #483a37; }
-  .bodycopy a.shopwomens {
-    margin: 20vh 0 0 0;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 30px;
-    padding: 0 0 9vh 0;
-    position: relative;
-    font-family: "Knockout Welter"; }
+          align-items: center;
+  position: relative; }
+
+p {
+  padding-top: 30px;
+  position: relative;
+  text-align: center;
+  font-family: "Knockout Junior";
+  color: #483a37; }
+
+.subheading {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0 0 1vh 0;
+  position: relative;
+  font-family: "Knockout Welter"; }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 550px;
+  width: 100vw;
+  position: relative;
+  margin: 20px auto; }
+  .slideshow-container img {
+    width: 200px;
+    height: auto; }
+
+/* Hide the images by default */
+.mySlides {
+  display: none; }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/* Caption text */
+.text {
+  color: #483a37;
+  font-family: "Knockout Welter";
+  font-size: 27px;
+  padding: 0 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center; }
+
+.price {
+  color: #483a37;
+  font-family: "Knockout Junior";
+  font-size: 20px;
+  padding: 15px 12px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  text-align: center; }
+
+.shop {
+  color: #483a37;
+  font-family: 'gotham black';
+  font-size: 24px;
+  text-transform: uppercase;
+  border: 2px solid #483a37;
+  padding: 10px 15px;
+  background-color: transparent;
+  position: absolute;
+  top: 150px;
+  right: 50px; }
+  .shop:hover {
+    border: 2px solid  #977a73;
+    color: #977a73; }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #717171; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@font-face {
+  font-family: 'Knockout Junior';
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF31-JuniorMiddlewt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Bantam';
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF47-Bantamweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Knockout Welter';
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot");
+  src: url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff2") format("woff2"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.woff") format("woff"), url("../../assets/fonts/knockout/Knockout-HTF50-Welterweight.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+.carousel-branding {
+  background-image: url("../../images/structured-background.jpeg");
+  background-size: contain;
+  height: 300px;
+  padding: 30px 0; }
 
 @font-face {
   font-family: 'Knockout Junior';
@@ -219,11 +350,21 @@ header {
     background-color: #ffe769;
     opacity: .7; }
 
+.womens-section {
+  background-image: url("https://images.unsplash.com/photo-1504471969840-8661059bdbd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 20px; }
+
 .mens-section {
-  background-image: url("../../images/francesco-gallarotti-2498-unsplash.jpg"); }
+  background-image: url("https://images.unsplash.com/photo-1535427646315-0c8a6e2db3c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px; }
 
 .kids-section {
-  background-image: url("../../images/s-b-vonlanthen-305116-unsplash.jpg"); }
+  background-image: url("../../images/s-b-vonlanthen-305116-unsplash.jpg");
+  margin-bottom: 20px; }
 
 @font-face {
   font-family: 'Knockout Junior';
@@ -269,10 +410,14 @@ header {
   padding: 12vh 0; }
   .social-icons li {
     font-size: 3rem; }
+    .social-icons li a {
+      text-decoration: none;
+      font-family: "Knockout Welter";
+      color: #483a37; }
 
 .meta {
   margin: 4vh auto;
-  width: 50vw; }
+  width: 600px; }
   .meta h3 {
     text-align: center;
     padding-top: 15vh;
@@ -280,6 +425,10 @@ header {
     font-family: "Knockout Welter";
     color: #483a37; }
   .meta .meta-links-list {
+    width: 550px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;

@@ -24,11 +24,21 @@
         opacity: .7;
     }
 }
+.womens-section {
+    background-image: url('https://images.unsplash.com/photo-1504471969840-8661059bdbd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom:20px;
+}
 
 .mens-section {
-    background-image: url('../../images/francesco-gallarotti-2498-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1535427646315-0c8a6e2db3c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80');
+    background-size: cover;
+    background-position: center;
+    margin-bottom:20px;
 }
 
 .kids-section {
     background-image: url('../../images/s-b-vonlanthen-305116-unsplash.jpg');
+    margin-bottom:20px;
 }
