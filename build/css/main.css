@@ -72,6 +72,7 @@ body {
   font-style: normal; }
 
 header {
+  width: 600px;
   height: 10vh;
   padding: 0 3vw;
   display: -webkit-box;
@@ -118,6 +119,7 @@ header {
   font-style: normal; }
 
 .hero-section {
+  width: 600px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content; }
@@ -228,7 +230,7 @@ p {
 
 .shop {
   color: #483a37;
-  font-family: 'gotham black';
+  font-family: "Knockout Welter";
   font-size: 24px;
   text-transform: uppercase;
   border: 2px solid #483a37;
